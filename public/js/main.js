@@ -684,7 +684,7 @@ const closegame = document.querySelector("#close_gameover");
 //sự kiện click để kết thúc game và quay về trang chủ
 closegame.addEventListener("click", function () {
   toastLiveExample.style.display = "block";
-  location.href = "../laucher.html";
+  location.href = "./index.html";
 });
 //sự kiện người chơi được chơi lại
 play_again.addEventListener("click", function () {
