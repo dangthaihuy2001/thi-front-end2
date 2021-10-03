@@ -513,7 +513,7 @@ const main__game = function () {
   }
 
   function loseH() {
-    ctCurH = ctCurH - 8;
+    ctCurH = ctCurH - 1;
   }
 
   // Sự kiện mua hàng trong shop
